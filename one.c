@@ -3,6 +3,8 @@
 #include<stdlib.h>
 #include<time.h>
 
+// edited by nishank
+
 int random_number(){
     srand(time(NULL));
     int secret = rand() % 100 + 1;
