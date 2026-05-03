@@ -14,8 +14,8 @@ void number_guessing(){
     int number = random_number();
     int guess;
 
-    printf("\nThis is number guessing game\n");
-    printf("You have to guess the correct number which is totally random and it is between 1 to 100\n\n");
+    printf("\nThis is number guessing game.\n");
+    printf("You have to guess the correct number which is totally random and it is between 1 to 100.\n\n");
     
     int attempts = 0;
 
@@ -61,12 +61,12 @@ int unlock_device()
 
     if (strcmp(string, "UNLOCK") == 0)
     {
-        printf("Device Unlocked\n");
+        printf("\nDevice Unlocked\n");
         return 1;
     }
     else
     {
-        printf("Access Denied");
+        printf("\nAccess Denied\n");
         return 0;
     }
 }
